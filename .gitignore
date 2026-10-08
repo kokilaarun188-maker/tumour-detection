@@ -1,0 +1,22 @@
+# Compressed archives (e.g. CNN.zip > 100MB)
+*.zip
+dataset/*.zip
+dataset/CNN.zip
+
+# Large dataset image folders (Testing & Training)
+Testing/
+Training/
+dataset/Testing/
+dataset/Training/
+
+# Model weight files
+*.h5
+*.keras
+dataset/*.h5
+dataset/*.keras
+
+# Python cache & environment
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
